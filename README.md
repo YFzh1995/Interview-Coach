@@ -23,7 +23,18 @@
 
 ## 安装
 
-### 方式一：Git 克隆（推荐，可获得更新）
+### 方式一：AI 自动安装（最快）
+
+在 OpenCode、Claude Code 或 Codex 中直接说：
+
+```
+请帮我自动适配并安装如下 skill：
+https://github.com/YFzh1995/Interview-Coach
+```
+
+AI 会自动识别当前平台和 Agent 类型，将 SKILL.md 安装到正确路径。
+
+### 方式二：Git 克隆（可获得更新）
 
 ```bash
 # macOS / Linux / Windows WSL：全局安装
@@ -40,13 +51,13 @@ mkdir %USERPROFILE%\.config\opencode\skills
 git clone https://github.com/YFzh1995/Interview-Coach.git %USERPROFILE%\.config\opencode\skills\financial-interview-coach
 ```
 
-### 方式二：手动下载
+### 方式三：手动下载
 
 1. 从 [Releases](https://github.com/YFzh1995/Interview-Coach/releases) 下载 `SKILL.md`
 2. 在目标路径创建目录（见上方兼容平台表格）
 3. 将 `SKILL.md` 放入该目录
 
-### 方式三：项目级安装（仅当前项目生效）
+### 方式四：项目级安装
 
 在项目根目录执行：
 
